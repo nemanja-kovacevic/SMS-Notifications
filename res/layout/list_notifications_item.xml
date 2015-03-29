@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="5px">
+	<QuickContactBadge  
+        android:id="@+id/list_notifications_item_person_icon"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:src="@drawable/contact"
+        android:focusable="false" android:focusableInTouchMode="false"></QuickContactBadge>
+	<ImageView android:id="@+id/list_notifications_item_type_icon"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="10px" android:layout_toRightOf="@id/list_notifications_item_person_icon"
+			android:focusable="false" android:focusableInTouchMode="false" />
+	<TextView android:id="@+id/list_notifications_item_contact_info_primary"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:maxLines="1" android:scrollHorizontally="true" 
+		android:layout_toRightOf="@id/list_notifications_item_type_icon"
+		android:paddingLeft="10px" android:textSize="22sp"
+		android:focusable="false" android:focusableInTouchMode="false"/>
+	<TextView android:id="@+id/list_notifications_item_number_of_calls"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_toRightOf="@id/list_notifications_item_person_icon"
+		android:layout_below="@id/list_notifications_item_type_icon"
+		android:paddingLeft="10px" android:textSize="16sp"
+		android:layout_centerHorizontal="true"
+		android:focusable="false" android:focusableInTouchMode="false" />
+	<TextView android:id="@+id/list_notifications_item_contact_info_secondary"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_below="@id/list_notifications_item_contact_info_primary"
+		android:layout_toRightOf="@id/list_notifications_item_number_of_calls"
+		android:paddingLeft="10px" android:textSize="16sp" 
+		android:layout_alignLeft="@id/list_notifications_item_contact_info_primary"
+		android:layout_alignBaseline="@id/list_notifications_item_number_of_calls"
+		android:focusable="false" android:focusableInTouchMode="false"/>
+	<TextView android:id="@+id/list_notifications_item_time"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_toRightOf="@id/list_notifications_item_contact_info_secondary"
+		android:layout_below="@id/list_notifications_item_contact_info_primary"
+		android:gravity="right" android:textSize="16sp"
+		android:layout_alignBaseline="@id/list_notifications_item_number_of_calls"
+		android:focusable="false" android:focusableInTouchMode="false" />
+</RelativeLayout>

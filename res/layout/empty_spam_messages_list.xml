@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ListView android:id="@id/android:list" android:layout_weight="1"
+		android:drawSelectorOnTop="false" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:paddingTop="10dip" />
+	<TextView android:id="@id/android:empty"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="16sp"
+		android:paddingTop="10dip" android:text="@string/there_are_no_spam_messages"/>
+</LinearLayout>

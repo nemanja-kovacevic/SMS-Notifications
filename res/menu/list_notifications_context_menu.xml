@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/list_notifications_context_menu_item_call"
+    android:title="@string/list_notifications_context_menu_item_call"
+    />
+    <item android:id="@+id/list_notifications_context_menu_item_sms"
+    android:title="@string/list_notifications_context_menu_item_sms"
+    />
+    <item android:id="@+id/list_notifications_context_menu_item_delete_notification"
+    android:title="@string/list_notifications_context_menu_item_delete_notification"
+    />
+    <item android:id="@+id/list_notifications_context_menu_item_add_to_contacts"
+    android:title="@string/list_notifications_context_menu_item_add_to_contacts"
+    />
+</menu>

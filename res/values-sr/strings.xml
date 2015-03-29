@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS obaveštenja</string>
+    <string name="list_notifications_activity_title_new">Nova obaveštenja</string>
+    <string name="list_notifications_activity_title_all">Sva obaveštenja</string>
+    <string name="preferences_activity_title">Podešavanja</string>
+    <string name="administer_spam_senders_activity_title">Dodaj ili ukloni pošaljioca neželjenih poruka</string>
+    <string name="administer_rules_activity_title">Dodaj, ukloni ili osveži pravila prepoznavanja</string>
+    <string name="show_spam_message_activity_title">Neželjena poruka</string>
+    <string name="type_missed_call_ticker_text">Obaveštenje o propuštenom pozivu</string>
+    <string name="type_multiple_missed_call_ticker_text">Obaveštenje o propuštenim pozivima</string>
+    <string name="type_availability_ticker_text">Obaveštenje o ponovnoj dostupnosti</string>
+    <string name="type_multiple_availability_ticker_text">Obaveštenje o ponovnoj dostupnosti</string>
+    <string name="list_notifications_context_menu_item_call">Pozovi</string>
+    <string name="list_notifications_context_menu_item_sms">Pošalji poruku</string>
+    <string name="list_notifications_context_menu_item_delete_notification">Obriši obaveštenje</string>
+    <string name="list_notifications_context_menu_item_add_to_contacts">Dodaj u kontakte</string>
+    <string name="list_spam_messages_context_menu_item_delete_spam_message">Obriši neželjenu poruku</string>
+    <string name="list_notifications_load_all">Učitaj sva obaveštenja</string>
+    <string name="list_rule_sets_check_for_updates">Proveri promene u pravilima</string>
+    <string name="contact_unknown">Nepoznat broj</string>
+    <string name="today">Danas</string>
+    <string name="yesterday">Juče</string>
+    <string name="operators_notifications_preference_category_title">Podešavanja obaveštenja operatora</string>
+    <string name="operators_notifications_preference_notifications_store_limit_title">Kapacitet</string>
+    <string name="operators_notifications_preference_notifications_store_limit_summary">Čuvaj %1$s obaveštenja.</string>
+    <string name="sms_spam_preference_category_title">Podešavanja neželjenih poruka</string>
+    <string name="sms_spam_preference_item_title">Filter neželjenih poruka</string>
+    <string name="sms_spam_preference_item_summary">Dodaj ili ukloni pošaljioce neželjenih poruka</string>
+    <string name="rules_item_title">Pravila prepoznavanja</string>
+    <string name="rules_item_summary">Dodaj, ukloni ili osveži pravila</string>
+    <string name="spam_preference_store_limit_title">Kapacitet</string>
+    <string name="spam_preference_store_limit_summary">Čuvaj %1$s neželjenih poruka.</string>
+    <string name="no_spam_senders_defined">Nema definisanih pošaljilaca neželjenih poruka</string>
+    <string name="there_are_no_notifications">Nema obaveštenja</string>
+    <string name="there_are_no_spam_messages">Nema neželjenih poruka</string>
+    <string name="spam_sender_add_button">Dodaj</string>
+    <string name="remove_spam_sender_tip">Taknite pošaljioca da ga uklonite iz liste</string>
+    <string name="do_not_store_spam">Ne čuvaj neželjene poruke.</string>
+    <string name="tab_title_notifications">Obaveštenja</string>
+    <string name="tab_title_spam">Neželjene poruke</string>
+    <string name="tab_title_settings">Podešavanja</string>
+    <string name="tab_title_about">O programu</string>
+    <string name="from">Od</string>
+    <string name="list_rule_sets_item_install">Instaliraj</string>
+    <string name="list_rule_sets_item_update">Osveži</string>
+    <string name="list_rule_sets_item_remove">Ukloni</string>
+    <string name="version">verzija: </string>
+    <string name="checking_for_updates">Učitavanje...</string>
+    <string name="removing_rules">Uklanjanje pravila...</string>
+    <string name="updating_rules">Osvežavanje pravila...</string>
+    <string name="installing_rules">Instaliranje pravila...</string>
+    <string name="installing_default_rules">Instaliranje pravila za zemlju: %1$s</string>
+    <string name="fetching_new_notifications">Učitavanje novih obaveštenja...</string>
+    <string name="fetching_notifications">Učitavanje obaveštenja...</string>
+    <string name="notification_production_exception">Desila se greška prilikom procesiranja poruke prepoznate kao SMS obaveštenje. Možda je operator promenio format obaveštenja. Da li želite da proverite ima li na Internetu osveženih pravila?</string>
+	<string name="yes">Da</string>
+	<string name="ok">U redu</string>
+	<string name="no">Ne</string>
+	<string name="report_persisting_issue">Osvežavanje od pravila nije ispravilo grešku. Da li želite da prijavite grešku putem eketronske pošte? Ukoliko želite mi ćemo rešiti problem i ponuditi osvežena pravila u narednih par dana. Moraćete sami da osvežite pravila.</string>
+	<string name="report_issue">Da li želite da prijavite grešku putem eketronske pošte? Ukoliko želite mi ćemo rešiti problem i ponuditi osvežena pravila u narednih par dana. Moraćete sami da osvežite pravila.</string>
+	<string name="no_email_client_installed">Nije instaliran ni jedan klijent elektronske pošte.</string>
+	<string name="attention_requiered">Ova aplikacija zahteva Vašu pažnju.</string>
+	<string name="send_mail">Pošalji poruku elektronske pošte...</string>
+	<string name="author">Autor:</string>
+	<string name="nemanja_kovacevic">Nemanja Kovačević</string>
+	<string name="about_missed_call">Propušten poziv od ...</string>
+	<string name="about_availability">... je ponovo dostupan.</string>
+	<string name="frequently_asked_questions">Često postavljana pitanja</string>
+	<string name="more_apps_from_this_author">Aplikacije ovog autora</string>
+	<string name="url_faq">http://nemanjakovacevic.net/pages/apps/smsnotifications/faq.html</string>
+	
+	<string name="check_for_update_internet_connection_problem">Postoji problem sa internet konekcijom. Aplikacija ne može da utvrdi da li ima promena pravila u ovom trenutku.</string>
+	<string name="install_rules_internet_connection_problem">Postoji problem sa internet konekcijom. Aplikacija ne može da instalira pravila u ovom trenutku.</string>
+	<string name="updating_rules_internet_connection_problem">Postoji problem sa internet konekcijom. Aplikacija ne može da instalira pravila u ovom trenutku. Prethodna verzija pravila je uklonjena.</string>
+	<string name="default_rules_install_internet_connection_problem">Aplikacija \'SMS Obaveštenja\' je pokušala da instalira pravila za zemlju Vašeg operatera. Postoji problem sa internet konekcijom i pravila nisu mogla biti instalirana. Moraćete sami instalirati pravila preko podešavanja aplikacije da bi aplikacija ispravno funkcionisala.</string>
+	<string name="country_code_not_supported_problem">Aplikacija \'SMS Obaveštenja\' je pokušala da instalira pravila za zemlju Vašeg operatera ali zemlja sa ISO kodom \'%1$s\' nije podržana. Ne postoje instalirana pravila. Moraćete sami instalirati pravila preko podešavanja aplikacije da bi aplikacija ispravno funkcionisala.</string>
+
+	<string name="possible_colision_with_sms_app">PAŽNJA: Ova aplikacija možda neće ispravno funkcionisati ukoliko koristite posebne SMS aplikacije kao što su \'GO SMS PRO\' ili \'Handcent SMS\'. Trebalo bi da podesite ove aplikacije tako da ne blokiraju obaveštavanja o porukama ili da ih uklonite i ponovo instalirate nakon instalacije \'SMS ObaveŠtenja\'.</string>
+
+	<string name="us">Emulator</string>
+	<string name="rs">Srbija</string>
+	<string name="unknown">Nepoznato</string>
+	
+	<string name="list_operator_notifications_menu_item_delete_all">Obriši sva obaveštenja</string>
+
+	<string name="if_app_is_not_working">Ukoliko aplikacija ne radi</string>
+	<string name="url_troubleshoot">http://nemanjakovacevic.net/pages/apps/smsnotifications/troubleshoot.html</string>
+
+	<string name="share">Podeli preko ...</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/list_spam_message_menu_item_delete_spam_message"
+    android:title="@string/list_spam_messages_context_menu_item_delete_spam_message"
+    android:icon="@drawable/ic_menu_remove"
+    />
+</menu>

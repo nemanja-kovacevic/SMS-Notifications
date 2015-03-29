@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="5px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id/list_rule_sets_item_country_name"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:padding="10px" android:textSize="20sp" android:textColor="#ffffff"/>
+	<TextView android:id="@+id/list_rule_sets_item_country_code"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_toRightOf="@id/list_rule_sets_item_country_name"
+		android:textSize="14sp" android:gravity="right" />
+	<TextView android:id="@+id/list_rule_sets_item_version"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_below="@id/list_rule_sets_item_country_code"
+		android:layout_toRightOf="@id/list_rule_sets_item_country_name"
+		android:textSize="14sp" android:gravity="right" android:text="@string/version"/>
+		<Button android:id="@+id/list_rule_sets_item_install"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="@string/list_rule_sets_item_install"
+		android:layout_below="@id/list_rule_sets_item_country_name"/>
+		<Button android:id="@+id/list_rule_sets_item_update"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="@string/list_rule_sets_item_update"
+		android:layout_below="@id/list_rule_sets_item_country_name"
+		android:layout_toRightOf="@id/list_rule_sets_item_install"/>
+		<Button android:id="@+id/list_rule_sets_item_remove"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="@string/list_rule_sets_item_remove"
+		android:layout_below="@id/list_rule_sets_item_country_name"
+		android:layout_toRightOf="@id/list_rule_sets_item_update"/>
+</RelativeLayout>

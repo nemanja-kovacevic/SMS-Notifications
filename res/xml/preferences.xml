@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/operators_notifications_preference_category_title">
+		<PreferenceScreen android:title="@string/rules_item_title"
+			android:summary="@string/rules_item_summary">
+			<intent
+				android:action="net.nemanjakovacevic.smsnotifications.intents.ADMINISTER_RULES" />
+		</PreferenceScreen>
+		<ListPreference android:key="KEY_NOTIFICATIONS_STORE_LIMIT"
+			android:entryValues="@array/notifications_store_limit_options_items"
+			android:entries="@array/notifications_store_limit_options_items"
+			android:title="@string/operators_notifications_preference_notifications_store_limit_title"
+			android:summary="@string/operators_notifications_preference_notifications_store_limit_summary"
+			android:defaultValue="50" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/sms_spam_preference_category_title">
+		<PreferenceScreen android:title="@string/sms_spam_preference_item_title"
+			android:summary="@string/sms_spam_preference_item_summary">
+			<intent
+				android:action="net.nemanjakovacevic.smsnotifications.intents.ADMINISTER_SPAM_NUMBER" />
+		</PreferenceScreen>
+		<ListPreference android:key="KEY_SPAM_STORE_LIMIT"
+			android:entryValues="@array/spam_store_limit_options_items"
+			android:entries="@array/spam_store_limit_options_items"
+			android:title="@string/spam_preference_store_limit_title"
+			android:summary="@string/spam_preference_store_limit_summary"
+			android:defaultValue="50" />
+	</PreferenceCategory>
+</PreferenceScreen>

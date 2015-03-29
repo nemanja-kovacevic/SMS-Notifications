@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/list_operator_notifications_menu_item_delete_all"
+    android:title="@string/list_operator_notifications_menu_item_delete_all"
+    android:icon="@drawable/ic_menu_remove"
+    />
+</menu>

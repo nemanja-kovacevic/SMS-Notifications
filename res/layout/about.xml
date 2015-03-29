@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:padding="10dip">
+		<ImageView android:id="@+id/application_icon" android:src="@drawable/icon"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="10dip" android:layout_marginBottom="30dip" />
+		<TextView android:id="@+id/application_title" android:text="@string/app_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/application_icon" android:textSize="24dip" />
+		<TextView android:id="@+id/author" android:text="@string/author"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/application_icon"
+			android:layout_marginRight="2dip" android:textSize="14dip" />
+		<TextView android:id="@+id/nemanja_kovacevic" android:text="@string/nemanja_kovacevic"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/author" android:layout_below="@id/application_icon"
+			android:textSize="14dip" android:layout_marginBottom="10dip"/>
+		<TextView android:id="@+id/mail_nemanja_kovacevic"
+			android:text="@string/mail_nemanja_kovacevic" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/nemanja_kovacevic"
+			android:textSize="16dip" android:layout_marginBottom="10dip" />
+		<TextView android:id="@+id/website_nemanja_kovacevic"
+			android:text="@string/website_nemanja_kovacevic" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/mail_nemanja_kovacevic"
+			android:textSize="16dip" android:layout_marginBottom="30dip" />
+		<ImageView android:id="@+id/missed_call" android:src="@drawable/missed_call"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="10dip" android:layout_marginBottom="10dip"
+			android:layout_below="@id/website_nemanja_kovacevic" />
+		<TextView android:id="@+id/about_missed_call" android:text="@string/about_missed_call"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/website_nemanja_kovacevic"
+			android:layout_toRightOf="@id/missed_call" android:textSize="14dip"
+			android:layout_marginBottom="10dip" />
+		<ImageView android:id="@+id/availability" android:src="@drawable/availability"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="10dip" android:layout_marginBottom="30dip"
+			android:layout_below="@id/missed_call" />
+		<TextView android:id="@+id/about_availability" android:text="@string/about_availability"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/about_missed_call"
+			android:layout_toRightOf="@id/availability" android:textSize="14dip"
+			android:layout_marginBottom="10dip" android:layout_alignTop="@id/availability" />
+		<LinearLayout android:id="@+id/help" android:layout_width="fill_parent" 
+		    android:layout_height="60dp" android:layout_below="@id/availability">
+		    <Button android:id="@+id/if_app_is_not_working"
+				android:text="@string/if_app_is_not_working"
+				 android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1" />
+			<Button android:id="@+id/frequently_asked_questions"
+				android:text="@string/frequently_asked_questions"
+				android:layout_width="0dp"
+				android:layout_height="fill_parent"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<Button android:id="@+id/more_apps_from_this_author"
+			android:text="@string/more_apps_from_this_author"
+			android:layout_below="@id/help"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:id="@+id/social" android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" android:layout_below="@id/more_apps_from_this_author">
+		    <ImageButton 
+		        android:id="@+id/facebook"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:src="@drawable/facebook"/>
+		    <ImageButton 
+		        android:id="@+id/twitter"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:src="@drawable/twitter"/>
+		    <ImageButton 
+		        android:id="@+id/share"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:src="@drawable/share"/>
+		</LinearLayout>
+	</RelativeLayout>
+</ScrollView>
